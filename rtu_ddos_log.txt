@@ -1,0 +1,1039 @@
+
+$$$$$$$\ $$$$$$$$\ $$\   $$\        $$$$$$\   $$$$$$\   $$$$$$\  $$\   $$\ $$\   $$\ $$$$$$$$\ $$$$$$$\  
+$$  __$$\\__$$  __|$$ |  $$ |      $$  __$$\ $$  __$$\ $$  __$$\ $$$\  $$ |$$$\  $$ |$$  _____|$$  __$$\ 
+$$ |  $$ |  $$ |   $$ |  $$ |      $$ /  \__|$$ /  \__|$$ /  $$ |$$$$\ $$ |$$$$\ $$ |$$ |      $$ |  $$ |
+$$$$$$$  |  $$ |   $$ |  $$ |      \$$$$$$\  $$ |      $$$$$$$$ |$$ $$\$$ |$$ $$\$$ |$$$$$\    $$$$$$$  |
+$$  __$$<   $$ |   $$ |  $$ |       \____$$\ $$ |      $$  __$$ |$$ \$$$$ |$$ \$$$$ |$$  __|   $$  __$$< 
+$$ |  $$ |  $$ |   $$ |  $$ |      $$\   $$ |$$ |  $$\ $$ |  $$ |$$ |\$$$ |$$ |\$$$ |$$ |      $$ |  $$ |
+$$ |  $$ |  $$ |   \$$$$$$  |      \$$$$$$  |\$$$$$$  |$$ |  $$ |$$ | \$$ |$$ | \$$ |$$$$$$$$\ $$ |  $$ |
+\__|  \__|  \__|    \______/        \______/  \______/ \__|  \__|\__|  \__|\__|  \__|\________|\__|  \__|
+                                                    a                                                     
+RTU Ultimate Security Scanner - Aggressive Mode (Fixed)
+
+[2025-05-24 11:48:27] Performing unauthorized RTU access test...
+[2025-05-24 11:48:27] Unauthorized RTU access attempt: Status 403, Response: <HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;example&#46;com&#47;rtu&#47;work" on this server.<P>
+Reference&#32;&#35;18&#46;8af6d517&#46;1748083706&#46;efaae843
+<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8af6d517&#46;1748083706&#46;efaae843</P>
+</BODY>
+</HTML>
+
+[2025-05-24 11:48:27] Login FAILED for user 'admin'. Status: 403, Response: <HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;example&#46;com&#47;login" on this server.<P>
+Reference&#32;&#35;18&#46;8af6d517&#46;1748083707&#46;efaafc37
+<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8af6d517&#46;1748083707&#46;efaafc37</P>
+</BODY>
+</HTML>
+
+[2025-05-24 11:48:27] Login failed. Skipping authorized RTU commands and RTU flood.
+[2025-05-24 11:48:27] Starting aggressive login flood...
+[2025-05-24 11:48:27] [Login Flood Thread 5] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 3] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 2] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 4] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 1] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 6] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 7] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 9] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 8] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:27] [Login Flood Thread 10] Attempt 1: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 5] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 3] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 4] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 2] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 10] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 1] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 9] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 6] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 7] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 8] Attempt 2: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 5] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 3] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 4] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 2] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 1] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 10] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 9] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 6] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 8] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 7] Attempt 3: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 5] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 3] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 2] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 1] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 4] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 10] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 8] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 6] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 9] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 7] Attempt 4: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 3] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 5] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 4] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 1] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 10] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 2] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 8] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 7] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 6] Attempt 5: FAIL - Status 403
+[2025-05-24 11:48:28] [Login Flood Thread 3] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 5] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 10] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 9] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 4] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 2] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 8] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 1] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 6] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 7] Attempt 6: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 3] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 5] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 9] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 2] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 1] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 8] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 4] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 7] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 6] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 10] Attempt 7: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 3] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 5] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 9] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 1] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 7] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 2] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 4] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 8] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 6] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 10] Attempt 8: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 3] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 5] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 9] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 1] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 2] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 8] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 6] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 7] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 4] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:29] [Login Flood Thread 10] Attempt 9: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 3] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 5] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 9] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 1] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 2] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 8] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 6] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 7] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 4] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 10] Attempt 10: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 3] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 5] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 9] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 1] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 2] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 6] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 8] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 7] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 4] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 10] Attempt 11: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 3] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 5] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 9] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 1] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 2] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 6] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 7] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 8] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 4] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 10] Attempt 12: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 3] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 9] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 5] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 1] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 2] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 6] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 8] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 7] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 4] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:30] [Login Flood Thread 10] Attempt 13: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 3] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 9] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 5] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 1] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 6] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 2] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 4] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 8] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 7] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 10] Attempt 14: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 3] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 9] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 5] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 1] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 6] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 2] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 4] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 10] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 8] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 7] Attempt 15: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 3] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 9] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 5] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 1] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 6] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 2] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 8] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 4] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 7] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 10] Attempt 16: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 3] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 9] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 5] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 6] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 1] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 2] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 8] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 7] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 10] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 4] Attempt 17: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 3] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:31] [Login Flood Thread 9] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 5] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 6] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 1] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 2] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 8] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 7] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 10] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 4] Attempt 18: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 3] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 9] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 5] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 6] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 1] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 8] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 2] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 7] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 10] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 4] Attempt 19: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 3] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 9] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 5] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 6] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 1] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 8] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 4] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 2] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 7] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 10] Attempt 20: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 3] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 5] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 9] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 6] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 8] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 1] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 10] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 7] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 2] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 4] Attempt 21: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 3] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 5] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 9] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:32] [Login Flood Thread 6] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 8] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 10] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 2] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 7] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 1] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 4] Attempt 22: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 3] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 9] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 5] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 6] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 8] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 10] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 2] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 1] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 4] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 7] Attempt 23: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 3] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 9] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 6] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 5] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 8] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 1] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 2] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 4] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 7] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 10] Attempt 24: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 3] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 9] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 5] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 6] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 8] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 1] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 2] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 7] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 4] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 10] Attempt 25: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 3] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 9] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 5] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:33] [Login Flood Thread 6] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 8] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 7] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 4] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 1] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 2] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 10] Attempt 26: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 3] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 9] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 5] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 6] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 8] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 4] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 1] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 2] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 7] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 10] Attempt 27: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 3] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 9] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 5] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 6] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 8] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 4] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 1] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 2] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 10] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 7] Attempt 28: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 3] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 9] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 5] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 6] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 8] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 4] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 1] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 2] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 7] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 10] Attempt 29: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 3] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 6] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 9] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 5] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 8] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:34] [Login Flood Thread 4] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 1] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 7] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 2] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 6] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 9] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 5] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 3] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 8] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 4] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 1] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 7] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 2] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 9] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 6] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 5] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 3] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 8] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 1] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 7] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 2] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 10] Attempt 30: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 6] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 9] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 4] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 3] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 5] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 8] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 7] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 10] Attempt 31: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 9] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 4] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 6] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 3] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 5] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:35] [Login Flood Thread 8] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 7] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 10] Attempt 32: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 6] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 9] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 4] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 3] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 5] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 8] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 7] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 10] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 6] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 4] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 9] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 2] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 1] Attempt 33: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 3] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 5] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 8] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 7] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 10] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 6] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 4] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 9] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 2] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 1] Attempt 34: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 3] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 5] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 8] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 7] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 10] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 6] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 4] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 9] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 2] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 1] Attempt 35: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 3] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 5] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 8] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 7] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:36] [Login Flood Thread 10] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 6] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 4] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 9] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 2] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 1] Attempt 36: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 3] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 5] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 8] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 7] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 10] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 6] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 4] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 9] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 2] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 1] Attempt 37: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 3] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 5] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 8] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 7] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 10] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 6] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 4] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 9] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 2] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 1] Attempt 38: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 3] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 5] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 8] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 7] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 10] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 6] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 4] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 9] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 2] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 1] Attempt 39: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 3] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 5] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 8] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 7] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 10] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 6] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:37] [Login Flood Thread 4] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 9] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 1] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 2] Attempt 40: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 3] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 5] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 8] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 7] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 10] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 6] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 4] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 9] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 2] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 1] Attempt 41: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 3] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 5] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 8] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 7] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 10] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 6] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 4] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 9] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 2] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 3] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 1] Attempt 42: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 5] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 8] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 7] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 10] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 6] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 4] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 9] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 1] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 3] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 2] Attempt 43: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 8] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 5] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 7] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 10] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 6] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 4] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:38] [Login Flood Thread 9] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 1] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 3] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 5] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 8] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 2] Attempt 44: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 7] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 10] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 6] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 9] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 1] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 3] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 8] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 10] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 6] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 2] Attempt 45: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 5] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 7] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 9] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 1] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 3] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 8] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 10] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 6] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 5] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 7] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 4] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 9] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 1] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 2] Attempt 46: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 3] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 8] Attempt 50: EXCEPTION - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-24 11:48:39] [Login Flood Thread 10] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 5] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 7] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:39] [Login Flood Thread 4] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 1] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 2] Attempt 47: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 10] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 4] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 1] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 2] Attempt 48: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 10] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 4] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 2] Attempt 49: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 1] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:40] [Login Flood Thread 2] Attempt 50: FAIL - Status 403
+[2025-05-24 11:48:40] Login flood finished.
+[2025-05-24 11:48:40] Starting aggressive RTU command flood...
+[2025-05-24 11:48:40] [RTU Flood Thread 1] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 2] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 6] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 4] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 8] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 10] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 7] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 3] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 9] Attempt 1: Status 403
+[2025-05-24 11:48:40] [RTU Flood Thread 5] Attempt 1: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 1] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 6] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 2] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 8] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 4] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 3] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 10] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 9] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 5] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 7] Attempt 2: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 1] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 6] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 8] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 9] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 4] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 2] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 3] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 10] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 5] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 7] Attempt 3: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 1] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 6] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 8] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 9] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 5] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 4] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 10] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 3] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 7] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 2] Attempt 4: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 1] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 6] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 9] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 8] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 5] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 7] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 10] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 3] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 4] Attempt 5: Status 403
+[2025-05-24 11:48:41] [RTU Flood Thread 2] Attempt 5: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 1] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 6] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 9] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 8] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 5] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 10] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 3] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 7] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 2] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 4] Attempt 6: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 1] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 6] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 9] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 8] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 5] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 10] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 7] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 2] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 3] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 4] Attempt 7: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 1] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 6] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 9] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 8] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 7] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 2] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 10] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 5] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 3] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 4] Attempt 8: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 6] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 1] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 8] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 9] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 7] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 2] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 4] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 5] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 3] Attempt 9: Status 403
+[2025-05-24 11:48:42] [RTU Flood Thread 10] Attempt 9: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 1] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 6] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 8] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 9] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 7] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 5] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 10] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 2] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 3] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 4] Attempt 10: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 1] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 8] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 9] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 6] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 7] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 5] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 3] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 4] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 2] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 10] Attempt 11: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 1] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 8] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 6] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 7] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 9] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 3] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 5] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 2] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 4] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 10] Attempt 12: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 1] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 9] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 8] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 6] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 7] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 3] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 5] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 2] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 4] Attempt 13: Status 403
+[2025-05-24 11:48:43] [RTU Flood Thread 10] Attempt 13: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 1] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 9] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 8] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 7] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 6] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 3] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 2] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 4] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 10] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 5] Attempt 14: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 1] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 9] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 8] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 7] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 6] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 10] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 2] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 3] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 5] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 4] Attempt 15: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 1] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 9] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 10] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 6] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 3] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 8] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 5] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 2] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 7] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 4] Attempt 16: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 1] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 9] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 6] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 5] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 10] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 3] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 7] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 8] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 2] Attempt 17: Status 403
+[2025-05-24 11:48:44] [RTU Flood Thread 4] Attempt 17: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 1] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 9] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 6] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 10] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 5] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 3] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 7] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 8] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 2] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 4] Attempt 18: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 1] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 6] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 9] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 10] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 5] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 3] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 7] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 2] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 8] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 4] Attempt 19: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 1] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 6] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 9] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 3] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 5] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 10] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 2] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 7] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 8] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 4] Attempt 20: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 1] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 6] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 2] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 3] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 10] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 5] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 9] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 8] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 7] Attempt 21: Status 403
+[2025-05-24 11:48:45] [RTU Flood Thread 4] Attempt 21: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 1] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 6] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 2] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 10] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 7] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 9] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 3] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 5] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 4] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 8] Attempt 22: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 6] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 9] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 2] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 10] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 5] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 7] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 4] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 8] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 3] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 6] Attempt 24: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 9] Attempt 24: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 2] Attempt 24: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 3] Attempt 24: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 4] Attempt 24: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 5] Attempt 24: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 10] Attempt 24: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 2] Attempt 25: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 9] Attempt 25: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 6] Attempt 25: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 4] Attempt 25: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 1] Attempt 23: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 10] Attempt 25: Status 403
+[2025-05-24 11:48:46] [RTU Flood Thread 5] Attempt 25: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 7] Attempt 24: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 2] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 9] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 6] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 4] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 10] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 1] Attempt 24: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 5] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 7] Attempt 25: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 8] Attempt 24: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 2] Attempt 27: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 4] Attempt 27: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 9] Attempt 27: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 1] Attempt 25: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 10] Attempt 27: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 5] Attempt 27: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 6] Attempt 27: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 7] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 8] Attempt 25: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 3] Attempt 25: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 2] Attempt 28: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 10] Attempt 28: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 7] Attempt 27: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 4] Attempt 28: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 5] Attempt 28: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 9] Attempt 28: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 6] Attempt 28: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 1] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 8] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 3] Attempt 26: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 2] Attempt 29: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 10] Attempt 29: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 7] Attempt 28: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 9] Attempt 29: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 5] Attempt 29: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 4] Attempt 29: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 6] Attempt 29: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 1] Attempt 27: Status 403
+[2025-05-24 11:48:47] [RTU Flood Thread 8] Attempt 27: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 3] Attempt 27: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 2] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 10] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 7] Attempt 29: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 9] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 1] Attempt 28: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 4] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 6] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 5] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 8] Attempt 28: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 3] Attempt 28: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 2] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 10] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 7] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 9] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 1] Attempt 29: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 4] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 5] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 8] Attempt 29: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 6] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 3] Attempt 29: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 2] Attempt 32: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 10] Attempt 32: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 7] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 9] Attempt 32: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 1] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 6] Attempt 32: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 4] Attempt 32: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 5] Attempt 32: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 8] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 3] Attempt 30: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 2] Attempt 33: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 10] Attempt 33: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 7] Attempt 32: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 1] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 9] Attempt 33: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 6] Attempt 33: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 5] Attempt 33: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 8] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 3] Attempt 31: Status 403
+[2025-05-24 11:48:48] [RTU Flood Thread 4] Attempt 33: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 2] Attempt 34: EXCEPTION - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-24 11:48:49] [RTU Flood Thread 10] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 7] Attempt 33: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 1] Attempt 32: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 6] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 9] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 8] Attempt 32: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 3] Attempt 32: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 5] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 4] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 6] Attempt 35: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 10] Attempt 35: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 2] Attempt 35: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 1] Attempt 33: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 5] Attempt 35: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 9] Attempt 35: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 7] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 3] Attempt 33: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 8] Attempt 33: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 4] Attempt 35: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 6] Attempt 36: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 10] Attempt 36: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 2] Attempt 36: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 5] Attempt 36: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 1] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 3] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 7] Attempt 35: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 8] Attempt 34: Status 403
+[2025-05-24 11:48:49] [RTU Flood Thread 9] Attempt 36: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 4] Attempt 36: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 6] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 10] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 2] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 5] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 9] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 7] Attempt 36: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 8] Attempt 35: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 1] Attempt 35: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 3] Attempt 35: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 4] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 2] Attempt 38: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 6] Attempt 38: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 10] Attempt 38: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 5] Attempt 38: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 7] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 3] Attempt 36: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 1] Attempt 36: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 8] Attempt 36: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 9] Attempt 38: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 4] Attempt 38: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 2] Attempt 39: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 6] Attempt 39: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 10] Attempt 39: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 5] Attempt 39: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 9] Attempt 39: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 1] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 8] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 7] Attempt 38: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 3] Attempt 37: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 4] Attempt 39: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 6] Attempt 40: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 2] Attempt 40: Status 403
+[2025-05-24 11:48:50] [RTU Flood Thread 10] Attempt 40: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 9] Attempt 40: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 5] Attempt 40: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 7] Attempt 39: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 1] Attempt 38: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 8] Attempt 38: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 3] Attempt 38: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 4] Attempt 40: EXCEPTION - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-24 11:48:51] [RTU Flood Thread 6] Attempt 41: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 10] Attempt 41: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 2] Attempt 41: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 9] Attempt 41: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 7] Attempt 40: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 5] Attempt 41: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 4] Attempt 41: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 3] Attempt 39: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 1] Attempt 39: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 6] Attempt 42: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 8] Attempt 39: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 10] Attempt 42: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 2] Attempt 42: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 9] Attempt 42: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 10] Attempt 43: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 2] Attempt 43: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 7] Attempt 41: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 6] Attempt 43: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 1] Attempt 40: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 5] Attempt 42: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 4] Attempt 42: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 8] Attempt 40: Status 403
+[2025-05-24 11:48:51] [RTU Flood Thread 3] Attempt 40: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 10] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 3] Attempt 41: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 9] Attempt 43: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 2] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 4] Attempt 43: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 7] Attempt 42: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 6] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 5] Attempt 43: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 1] Attempt 41: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 8] Attempt 41: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 10] Attempt 45: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 3] Attempt 42: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 4] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 2] Attempt 45: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 5] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 7] Attempt 43: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 1] Attempt 42: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 8] Attempt 42: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 6] Attempt 45: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 9] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 10] Attempt 46: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 3] Attempt 43: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 1] Attempt 43: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 8] Attempt 43: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 4] Attempt 45: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 2] Attempt 46: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 5] Attempt 45: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 9] Attempt 45: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 7] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 6] Attempt 46: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 10] Attempt 47: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 1] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 3] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 2] Attempt 47: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 6] Attempt 47: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 8] Attempt 44: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 4] Attempt 46: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 9] Attempt 46: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 5] Attempt 46: Status 403
+[2025-05-24 11:48:52] [RTU Flood Thread 7] Attempt 45: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 10] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 1] Attempt 45: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 3] Attempt 45: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 2] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 6] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 7] Attempt 46: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 5] Attempt 47: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 9] Attempt 47: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 8] Attempt 45: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 4] Attempt 47: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 10] Attempt 49: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 3] Attempt 46: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 1] Attempt 46: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 2] Attempt 49: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 7] Attempt 47: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 6] Attempt 49: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 5] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 4] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 8] Attempt 46: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 9] Attempt 48: EXCEPTION - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-05-24 11:48:53] [RTU Flood Thread 10] Attempt 50: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 3] Attempt 47: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 1] Attempt 47: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 2] Attempt 50: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 7] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 6] Attempt 50: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 4] Attempt 49: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 9] Attempt 49: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 8] Attempt 47: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 5] Attempt 49: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 3] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 7] Attempt 49: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 1] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 8] Attempt 48: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 4] Attempt 50: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 9] Attempt 50: Status 403
+[2025-05-24 11:48:53] [RTU Flood Thread 5] Attempt 50: Status 403
+[2025-05-24 11:48:54] [RTU Flood Thread 3] Attempt 49: Status 403
+[2025-05-24 11:48:54] [RTU Flood Thread 7] Attempt 50: Status 403
+[2025-05-24 11:48:54] [RTU Flood Thread 1] Attempt 49: Status 403
+[2025-05-24 11:48:54] [RTU Flood Thread 8] Attempt 49: Status 403
+[2025-05-24 11:48:54] [RTU Flood Thread 3] Attempt 50: Status 403
+[2025-05-24 11:48:54] [RTU Flood Thread 1] Attempt 50: Status 403
+[2025-05-24 11:48:54] [RTU Flood Thread 8] Attempt 50: Status 403
+[2025-05-24 11:48:54] RTU command flood finished.
